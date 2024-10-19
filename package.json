@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "enc": "npx ts-node src/main.ts encrypt",
+    "dec": "npx ts-node src/main.ts decrypt"
   },
   "jest": {
     "transform": {
@@ -23,10 +25,5 @@
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.6.3"
-  },
-  "dependencies": {
-    "crypto": "^1.0.1",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7"
   }
 }

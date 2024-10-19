@@ -1,7 +1,7 @@
 .idea
 .code
-.vscode
 node_modules
 dist
 logs
 resources/example_encrypted.txt
+bash.sh
